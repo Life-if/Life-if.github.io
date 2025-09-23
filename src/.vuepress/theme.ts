@@ -4,11 +4,11 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://life-if.github.io/",
 
   author: {
     name: "Mr.Hope",
-    url: "https://mister-hope.com",
+    url: "https://life-if.github.io/",
   },
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
