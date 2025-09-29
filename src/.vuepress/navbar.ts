@@ -2,10 +2,21 @@ import { navbar } from "vuepress-theme-hope";
 
 export default navbar([
   "/",
-  "/demo/",
+  // "/demo/",
+  {
+    text: "期刊论文",
+    icon: "mdi:home",
+    prefix: "/demo/",
+    children: [
+      { text: "图像分类", icon: "iconfont icon-autumn", link: "classfication/" },
+      { text: "目标检测", icon: "iconfont icon-ability", link: "detection/" },
+      { text: "目标跟踪", icon: "iconfont icon-lightbulb", link: "track/" },
+      { text: "视觉大模型", icon: "ability", link: "LLMs/" },
+    ],
+  },
   {
     text: "博文",
-    icon: "pen-to-square",
+    icon: "lightbulb",
     prefix: "/posts/",
     children: [
       {

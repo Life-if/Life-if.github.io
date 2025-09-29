@@ -40,7 +40,7 @@ projects:
     desc: 生活不止有眼前的苟且，也有诗和远方
     link: https://你的自定义链接
 
-footer: 世事随如流水，算来一梦浮生~
+footer: true
 ---
 这是一个博客主页的案例。
 

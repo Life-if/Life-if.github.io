@@ -1,7 +1,14 @@
 import { hopeTheme } from "vuepress-theme-hope";
+import { getRecentUpdatedArticles } from "vuepress-theme-hope/presets/getRecentUpdatedArticles.js";
 
 import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
+
+import { Jieba } from '@node-rs/jieba';
+import { dict } from '@node-rs/jieba/dict.js';
+
+// 创建 jieba 实例（带默认词典）
+const jieba = Jieba.withDict(dict);
 
 export default hopeTheme({
   hostname: "https://life-if.github.io/",
@@ -16,6 +23,7 @@ export default hopeTheme({
   navbarAutoHide:"mobile",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
+  repoDisplay: false,
 
   docsDir: "src",
 
@@ -27,14 +35,20 @@ export default hopeTheme({
 
   // 页脚
   footer: "世事随如流水，算来一梦浮生~",
-  displayFooter: true,
+  displayFooter: false,
+  
+  navbarLayout: {
+    start: ["Brand"],
+    center: [],
+    end: ["Search","Links", "Outlook"],
+  },
 
   // 博客相关
   blog: {
     avatar: "head.png",
     // 名称
     name: "Voyager",
-    description: "💫AI算法工程师，🏆Type-Moon爱好者，💀熬夜协会轮值主席",
+    description: "💫AI算法工程师，🏆Type-Moon爱好者，💀熬夜协会轮值主席，♻️硕士",
     intro: "/intro.html",
     medias: {
       // BiliBili: "https://example.com",
@@ -187,9 +201,26 @@ export default hopeTheme({
       components: ["Badge", "VPCard"],
     },
 
-    icon: {
-      prefix: "fa6-solid:",
+    // search: true,
+    // slimsearch:true,
+    slimsearch: {
+      // 搜索功能
+      indexContent: true,  // 是否在索引页面中包含页面内容
+      indexOptions: {
+        // 使用 nodejs-jieba 进行分词
+        tokenize: (text, fieldName) =>
+          fieldName === 'id' ? [text] : jieba.cut(text, false),
+      },
+      suggestion: true,   // 是否在搜索结果中显示建议
+      queryHistoryCount: 5,  // 存储搜索查询词历史的最大数量
+      resultHistoryCount: 5, // 存储搜索结果最大数量
+      searchDelay: 3,  // 结束输入到开始搜索的延时
+      sortStrategy: "max"  // 搜索结果排序策略, total 表示总分更高的页面会 max 表示按顺序最大的
     },
+
+    // icon: {
+    //   assets: "iconify",
+    // },
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释
     // pwa: {
@@ -248,4 +279,4 @@ export default hopeTheme({
     //   },
     // },
   },
-});
+},{ custom: true });
