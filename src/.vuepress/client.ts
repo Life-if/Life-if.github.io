@@ -1,6 +1,7 @@
 import { defineClientConfig } from "vuepress/client";
 import { setupTransparentNavbar } from "vuepress-theme-hope/presets/transparentNavbar.js";
 import { setupRunningTimeFooter } from "vuepress-theme-hope/presets/footerRunningTime.js";
+
 import { setupSnowFall } from "vuepress-theme-hope/presets/snowFall.js";
 import { getRecentUpdatedArticles } from "vuepress-theme-hope/presets/getRecentUpdatedArticles.js";
 

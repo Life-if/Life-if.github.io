@@ -10,24 +10,24 @@ roundAvatar: true
 bgImage: background.webp
 tagline: 人无千日好，花无百日红。研学需稳固，自处宜慎独。
 projects:
-  - icon: /assets/icon/home/code.svg
+  - icon: /assets/icon/home/article.svg
     name: 项目介绍
-    desc: 科研、工程和开源项目方面的简介
+    desc: 关于科研、工程与开源实践的技术记录
     link: https://你的项目链接
 
   - icon: /assets/icon/home/book.svg
     name: 学习总结
-    desc: 书籍、论文等方面的学习笔记
+    desc: 读书笔记与学术思考的整理学习归档
     link: https://链接地址
 
   - icon: /assets/icon/home/link.svg
     name: 快速链接
-    desc: 一些生产力和娱乐链接
+    desc: 常用工具与值得关注的在线资源
     link: https://你的书籍链接
 
   - icon: /assets/icon/home/life.svg
     name: 日常记录
-    desc: 年度总结和工作生活随笔
+    desc: 年度总结和工作生活中的观察随笔
     link: https://你的文章链接
 
   - icon: /assets/icon/home/friends.svg
@@ -35,9 +35,9 @@ projects:
     desc: 比起玫瑰，我更喜欢玉兰
     link: https://你的伙伴链接
 
-  - icon: /assets/icon/home/head.svg
+  - icon: /head.png
     name: 关于我
-    desc: 生活不止有眼前的苟且，也有诗和远方
+    desc: 生活不止眼前的苟且，还有诗和远方
     link: https://你的自定义链接
 
 footer: true

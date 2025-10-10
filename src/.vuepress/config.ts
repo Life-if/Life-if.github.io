@@ -3,6 +3,17 @@ import { defineUserConfig } from "vuepress";
 
 import theme from "./theme.js";
 
+import { PopperShape } from "@moefy-canvas/theme-popper";
+import { popperPlugin } from "./plugins/vuepress-plugin-popper/index.js";
+
+import {
+  canvasPlugin,
+  CanvasPluginType,
+} from "./plugins/vuepress-plugin-canvas/index.js";
+
+// import { getDirname, path } from '@vuepress/utils'
+// import { gradientCoverPlugin,GradientCoverOptions } from "./plugins/vuepress-plugin-gradient-cover/index.js";
+// const __dirname = getDirname(import.meta.url)
 
 export default defineUserConfig({
   base: "/",
@@ -11,8 +22,6 @@ export default defineUserConfig({
   title: "Voyager's Blog",
   description: "这里是Voyager的学习小站，和大家分享我的学习心得和生活。",
 
-  theme,
-
   head:[
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com',crossorigin:"" }],
@@ -20,6 +29,29 @@ export default defineUserConfig({
 
   ],
 
+  plugins: [
+    popperPlugin({
+      config: {
+        shape: PopperShape.Star,
+        size: 2,
+        numParticles: 20,
+      },
+    }),
+    
+    //  背景插件
+    // 干扰阅读注意力，因此弃用
+    // canvasPlugin({
+    //   type: CanvasPluginType.Figure,
+    //   // ribbonOption: {
+    //   //   zIndex: 1,
+    //   //   alpha: 0.15,
+    //   //   size: 200,
+    //   // },
+    // }),
+    // 遮罩插件
+    // gradientCoverPlugin({}),
+  ],
   // 和 PWA 一起启用
   // shouldPrefetch: false,
+  theme,
 });

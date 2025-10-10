@@ -22,7 +22,8 @@
   "pnpm": {
     "onlyBuiltDependencies": [
       "esbuild",
-      "nodejieba"
+      "nodejieba",
+      "vue-demi"
     ],
     "ignoredBuiltDependencies": [
       "@parcel/watcher",
@@ -30,6 +31,9 @@
     ]
   },
   "dependencies": {
-    "@node-rs/jieba": "^2.0.1"
+    "@moefy-canvas/core": "^0.6.0",
+    "@moefy-canvas/theme-popper": "^0.6.0",
+    "@node-rs/jieba": "^2.0.1",
+    "@vuepress/utils": "2.0.0-rc.2"
   }
 }

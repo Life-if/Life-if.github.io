@@ -10,6 +10,7 @@ import { dict } from '@node-rs/jieba/dict.js';
 // 创建 jieba 实例（带默认词典）
 const jieba = Jieba.withDict(dict);
 
+
 export default hopeTheme({
   hostname: "https://life-if.github.io/",
 
@@ -45,7 +46,7 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    avatar: "head.png",
+    avatar: "head2.jpg",
     // 名称
     name: "Voyager",
     description: "💫AI算法工程师，🏆Type-Moon爱好者，💀熬夜协会轮值主席，♻️硕士",

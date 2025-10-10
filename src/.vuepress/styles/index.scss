@@ -5,6 +5,20 @@
     src: url('/assets/font/YanShiYouRanXiaoKai-2.ttf') format('truetype');
 }
 
+// 圆形头像
+@import "vuepress-theme-hope/presets/round-blogger-avatar.scss"; 
+// // 鼠标跳动
+@import "vuepress-theme-hope/presets/bounce-icon.scss";
+
+
+
+// .hero-fullscreen{
+//   z-index: 2;
+// }
+
+// .vp-page{
+//   z-index: 2;
+// }
 
 h1.vp-blog-hero-title{
     font-family:'Homemade Apple','Courier New', Courier, monospace;
@@ -276,3 +290,5 @@ table {
 .vp-page:not(.not-found) + .vp-footer-wrapper {
   margin-top: -2rem;
 }
+
+
