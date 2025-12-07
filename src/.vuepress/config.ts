@@ -19,14 +19,15 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "Voyager's Blog",
+  title: "SeanVoyager's Blog",
   description: "这里是Voyager的学习小站，和大家分享我的学习心得和生活。",
 
   head:[
     ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
     ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com',crossorigin:"" }],
     ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap' }],
-
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Kalam:wght@300;400;700&family=Qwigley&display=swap' }],
   ],
 
   plugins: [

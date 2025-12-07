@@ -15,7 +15,7 @@ export default hopeTheme({
   hostname: "https://life-if.github.io/",
 
   author: {
-    name: "Voyager",
+    name: "SeanVoyager",
     url: "https://life-if.github.io/",
   },
 
@@ -46,10 +46,10 @@ export default hopeTheme({
 
   // 博客相关
   blog: {
-    avatar: "head2.jpg",
+    avatar: "head3.png",
     // 名称
-    name: "Voyager",
-    description: "💫AI算法工程师，🏆Type-Moon爱好者，💀熬夜协会轮值主席，♻️硕士",
+    name: "SeanVoyager",
+    description: "💫AI算法工程师，🏆Type-Moon爱好者，💀熬夜协会轮值主席，♻️工学硕士",
     intro: "/intro.html",
     medias: {
       // BiliBili: "https://example.com",

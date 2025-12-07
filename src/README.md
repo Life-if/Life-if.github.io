@@ -4,7 +4,7 @@ layout: Blog
 icon: house
 title: 博客主页
 # heroImage: head.png
-heroText: Voyager
+heroText: SeanVoyager
 heroFullScreen: true
 roundAvatar: true
 bgImage: background.webp
