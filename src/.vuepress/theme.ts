@@ -40,8 +40,8 @@ export default hopeTheme({
   
   navbarLayout: {
     start: ["Brand"],
-    center: [],
-    end: ["Search","Links", "Outlook"],
+    center: ["Links"],
+    end: ["Search", "Outlook"],
   },
 
   // 博客相关
@@ -220,7 +220,10 @@ export default hopeTheme({
     },
 
     // icon: {
-    //   assets: "iconify",
+    //   assets: [
+    //     "fontawesome",
+    //     "iconify"
+    //   ]
     // },
 
     // 如果你需要 PWA。安装 @vuepress/plugin-pwa 并取消下方注释

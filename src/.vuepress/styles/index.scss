@@ -20,6 +20,11 @@
 //   z-index: 2;
 // }
 
+// 如果想针对特定位置的图标，可以使用更具体的选择器
+.vp-icon.vp-project-icon {
+  height: 2.2rem;
+}
+
 h1.vp-blog-hero-title{
     font-family:'Qwigley','Courier New', Courier, monospace;
     padding-top: 1.1rem;

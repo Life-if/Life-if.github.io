@@ -17,22 +17,22 @@ projects:
 
   - icon: /assets/icon/home/book.svg
     name: 学习总结
-    desc: 读书笔记与学术思考的整理学习归档
+    desc: 论文手记与学习思考的整理学习归档
     link: https://链接地址
 
   - icon: /assets/icon/home/link.svg
-    name: 快速链接
+    name: 资源链接
     desc: 常用工具与值得关注的在线资源
     link: https://你的书籍链接
 
   - icon: /assets/icon/home/life.svg
-    name: 日常记录
-    desc: 年度总结和工作生活中的观察随笔
+    name: 日常随笔
+    desc: 一些生活和爱好上的记录之类的
     link: https://你的文章链接
 
   - icon: /assets/icon/home/friends.svg
     name: 友情链接
-    desc: 比起玫瑰，我更喜欢玉兰
+    desc: 好友位招租，友谊地久天长
     link: https://你的伙伴链接
 
   - icon: /head.png
@@ -42,8 +42,8 @@ projects:
 
 footer: true
 ---
-这是一个博客主页的案例。
+<!-- 这是一个博客主页的案例。
 
 要使用此布局，你应该在页面前端设置 `layout: Blog` 和 `home: true`。
 
-相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。
+相关配置文档请见 [博客主页](https://theme-hope.vuejs.press/zh/guide/blog/home.html)。 -->
