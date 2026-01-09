@@ -91,13 +91,13 @@ export default navbar([
   {
     text: "资源链接",
     icon: "hugeicons:tools",
-    link: "https://theme-hope.vuejs.press/zh/",
+    link: "/toolsLink",
   },
-  {
-    text: "友情链接",
-    icon: "fa-solid:user-friends",
-    link: "https://theme-hope.vuejs.press/zh/",
-  },
+  // {
+  //   text: "友情链接",
+  //   icon: "fa-solid:user-friends",
+  //   link: "https://theme-hope.vuejs.press/zh/",
+  // },
     {
     text: "关于我",
     icon: "icon-park-solid:me",

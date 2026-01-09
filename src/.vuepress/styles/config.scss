@@ -6,3 +6,11 @@ $colors: #c0392b, #d35400, #f39c12, #27ae60, #16a085, #2980b9, #8e44ad, #2c3e50,
 // :root{
 //   --vp-c-bg-soft:rgba(238, 238, 238, 0.758);
 // }
+
+[data-theme=dark] {
+  --vp-c-bg-soft: rgba(71, 71, 71, 0.676);
+}
+
+[data-theme=light] {
+  --vp-c-bg-soft: #ebebebb9;
+}

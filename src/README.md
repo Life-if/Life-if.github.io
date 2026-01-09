@@ -23,7 +23,7 @@ projects:
   - icon: /assets/icon/home/link.svg
     name: 资源链接
     desc: 常用工具与值得关注的在线资源
-    link: https://你的书籍链接
+    link: /toolsLink
 
   - icon: /assets/icon/home/life.svg
     name: 日常随笔
@@ -35,10 +35,10 @@ projects:
     desc: 好友位招租，友谊地久天长
     link: https://你的伙伴链接
 
-  - icon: /head.png
+  - icon: /head2.png
     name: 关于我
     desc: 生活不止眼前的苟且，还有诗和远方
-    link: https://你的自定义链接
+    link: /intro
 
 footer: true
 ---

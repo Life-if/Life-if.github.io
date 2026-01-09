@@ -54,7 +54,7 @@ export default hopeTheme({
     intro: "/intro.html",
     medias: {
       // BiliBili: "https://example.com",
-      Email: "kx_voyager@outlook.com",
+      Email: "mailto:seanvoyager.cn@gmail.com",
       Gitee: "https://gitee.com/life-if-forever",
       GitHub: "https://github.com/Life-if",
       // QQ: "https://example.com",
@@ -109,9 +109,11 @@ export default hopeTheme({
   },
 
   // 多语言配置
-  metaLocales: {
-    editLink: "在 GitHub 上编辑此页",
-  },
+  // metaLocales: {
+  //   // editLink: "在 GitHub 上编辑此页",
+  //   editLink: false
+  // },
+  editLink: false,
 
   // 如果想要实时查看任何改变，启用它。注: 这对更新性能有很大负面影响
   // hotReload: true,
@@ -150,6 +152,7 @@ export default hopeTheme({
     tasklist: true,
     vPre: true,
 
+    
     // 取消注释它们如果你需要 TeX 支持
     // math: {
     //   // 启用前安装 katex
@@ -191,7 +194,14 @@ export default hopeTheme({
   // 在这里配置主题提供的插件
   plugins: {
     blog: true,
-
+    copyright: {
+      triggerLength: 100,
+      global: true,
+      disableCopy: false,
+      disableSelection: false,
+      author: "SeanVoyager",
+      license:"CC BY-NC-SA 4.0",
+    },
     // 启用之前需安装 @waline/client
     // 警告: 这是一个仅供演示的测试服务，在生产环境中请自行部署并使用自己的服务！
     // comment: {
@@ -200,7 +210,7 @@ export default hopeTheme({
     // },
 
     components: {
-      components: ["Badge", "VPCard"],
+      components: ["Badge", "VPCard","SiteInfo","VPBanner"],
     },
 
     // search: true,

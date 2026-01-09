@@ -25,10 +25,11 @@
 //     --content-width: calc(100vw - 40rem)!important;
 //   }
 // }
-
-.vp-portfolio-container .vp-portfolio-info{
-  background: var(--vp-mobile-bg-color);
-}
+// @media (min-width: 1000px){
+//   .vp-portfolio-container .vp-portfolio-info{
+//     background: var(--vp-mobile-bg-color);
+//   }
+// }
 
 .vp-portfolio-name{
   color: var(--vp-intro-name-color);
