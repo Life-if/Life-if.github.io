@@ -101,7 +101,7 @@ export default navbar([
     {
     text: "关于我",
     icon: "icon-park-solid:me",
-    link: "https://theme-hope.vuejs.press/zh/",
+    link: "/intro.md",
   },
   // {
   //   text: "博文",

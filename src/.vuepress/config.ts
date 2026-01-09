@@ -5,6 +5,7 @@ import theme from "./theme.js";
 
 import { PopperShape } from "@moefy-canvas/theme-popper";
 import { popperPlugin } from "./plugins/vuepress-plugin-popper/index.js";
+import { copyrightPlugin } from '@vuepress/plugin-copyright'
 
 import {
   canvasPlugin,
@@ -38,7 +39,10 @@ export default defineUserConfig({
         numParticles: 20,
       },
     }),
-    
+    copyrightPlugin({
+      author: "SeanVoyager",
+      license: "MIT",
+    }),
     //  背景插件
     // 干扰阅读注意力，因此弃用
     // canvasPlugin({

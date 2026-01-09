@@ -1,2 +1,11 @@
 // you can change colors here
-$theme-color: #1967dcb8;
+// $theme-color: #1967dcb8;
+$vp-intro-name-color: (
+    light:#303030f0,
+    dark: rgb(244, 244, 244)
+);
+
+$vp-mobile-bg-color: (
+    light:#ebebebb9,
+    dark: rgba(71, 71, 71, 0.676)
+)

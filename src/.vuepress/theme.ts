@@ -17,6 +17,7 @@ export default hopeTheme({
   author: {
     name: "SeanVoyager",
     url: "https://life-if.github.io/",
+    email: "kx_voyager@outlook.com",
   },
 
   logo: "logoold.png",
