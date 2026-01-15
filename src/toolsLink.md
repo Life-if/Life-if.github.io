@@ -17,10 +17,10 @@ icon: hugeicons:tools
 isOriginal: True
 
 # 你可以自定义封面图片/页面预览
-cover: /assets/background/bg_sheep.png
+cover: /toolLink/bk.jpg
 
-# 页面的宽屏分享图。
-banner: /assets/background/bg_sheep2.png
+# # 页面的宽屏分享图。
+banner: /toolLink/bk.jpg
 
 # 这是侧边栏的使用
 sidebar: false
@@ -45,7 +45,7 @@ article: true
 timeline: true
 
 # 此页面会在文章列表置顶
-sticky: false
+sticky: true
 
 # 此页面会出现在星标文章中
 star: true
@@ -82,6 +82,9 @@ copy:
 
 相关链接会陆续更新～ Forza! (๑•̀ㅁ•́ฅ)
 
+⚠️ **请大家注意网络安全，尽可能在保护状态下浏览。使用链接之前请务必先浏览[《免责说明》](#law)**
+
+
 ## 🤖 大模型专题链接
 
 ```component VPCard
@@ -116,10 +119,57 @@ link: https://www.kimi.com/zh/
 background: rgba(67, 67, 67, 0.19)
 ```
 
-## 🛠️ 生产力工具
+```component VPCard
+title: DeepSeek
+desc:  深度求索推出的高性能开源大模型，以强大的推理能力和对开发者友好著称，支持多模态交互与长文本处理。
+logo: https://www.deepseek.com/favicon.ico
+link: https://www.deepseek.com/
+background: rgba(0, 34, 255, 0.19)
+```
+
+## 🛠️ 生产工具
+
+```component VPCard
+title: Excalidraw
+desc:  一款开源的虚拟手绘风格白板工具，因其独特的手绘质感、简洁直观的界面和强大的实时协作功能而受到关注。
+logo: https://excalidraw.com/favicon-32x32.png
+link: https://excalidraw.com/
+background: rgba(115, 0, 255, 0.19)
+```
 
 ## 🔬 科研工具
 
+```component VPCard
+title: 谷歌学术镜像1
+desc:  稳定免验证的谷歌学术镜像站，支持直接检索并返回与Google Scholar官网一致的结果，访问流畅且无干扰广告。
+logo: https://xueshu.lanfanshu.cn/favicon.ico
+link: https://xueshu.lanfanshu.cn/
+background: rgba(0, 145, 255, 0.19)
+```
+
+```component VPCard
+title: 谷歌学术镜像2
+desc:  思谋学术维护，自动检测和更新可访问的Google学术镜像网址，附带Sci-Hub文献下载链接，支持高级检索和中文文献获取。
+logo: https://ac.scmor.com/res/favicon.ico
+link: https://ac.scmor.com/
+background: rgba(19, 188, 0, 0.19)
+```
+
+```component VPCard
+title: 学术论文下载1
+desc:  Sci-Hub文献检索是一个集文献检索、文献下载与文献互助于一体的学术服务网站，可以一站式搜索并免费下载国内外文献、专利、书籍等学术资料。
+logo: https://sci-hub.org.cn/static/favicon.ico
+link: https://sci-hub.org.cn/
+background: rgba(255, 226, 7, 0.19)
+```
+
+```component VPCard
+title: 学术论文下载2
+desc: 若上述镜像站无直接下载链接，可尝试配合此 Sci-Hub 镜像进行论文检索，也许可以找到相关文献。
+logo: /toolLink/sci-hub.svg
+link: https://sci-hub.ru/
+background: rgba(100, 100, 100, 0.19)
+```
 
 ## 🎮 游戏攻略区
 ```component VPCard
@@ -136,6 +186,13 @@ logo: /toolLink/new-logo-black.png
 link: https://www.cthulhuclub.com/
 background: rgba(0, 250, 0, 0.19)
 ```
+```component VPCard
+title:  YIKM - 怀旧游戏乐园
+desc: 一个可以让玩家在网页浏览器中直接运行经典红白机（NES）等平台游戏的网站。
+logo: /toolLink/YIKM.png
+link: https://www.yikm.net/
+background: rgba(255, 174, 0, 0.19)
+```
 <!-- <SiteInfo name="Mr.Hope's Blog" url="https://mister-hope.com" preview="https://theme-hope.vuejs.press/assets/image/mrhope.jpg" /> -->
 <!-- <SiteInfo
   name="Mr.Hope's Blog"
@@ -148,7 +205,36 @@ background: rgba(0, 250, 0, 0.19)
 
 ## ☕ 生活区
 
+```component VPCard
+title:  青椒模拟器
+desc: 一款硬核的30年学术生存模拟器。招募牛马学生，发表SCI，申请国自然，在非升即走的压力下避免成为保安。推荐想读博的同学玩玩。
+logo: /toolLink/qingjiao.ico
+link: https://tenure.feedscription.com/
+background: rgba(100, 100, 100, 0.19)
+```
 
+## 🔗 其他
 ::: info
 ✨ 如果有人想要找一些其他生产力工具，或者发现某些链接挂掉的话，可以反馈给我，我会及时调研更新。
+:::
+
+
+:::danger
+❗❗❗ **重要提醒** ❗❗❗
+本站提供的链接旨在分享有价值的资源。请您在访问这些外部网站前知悉并同意以下声明，并在网上冲浪的过程中注意自身网络安全。
+
+📄 **免责声明** <a id="law"></a>
+
+1. **非关联性与非认可性**：本站提供的所有友情链接所指向的第三方网站，其运营、内容和安全性均与本站无任何关联。这些链接的提供不构成本站对其内容、观点、产品或服务的任何认可或担保
+2. **内容与责任**：本站无法实时监控或控制所有链接网站的内容。对于任何第三方网站内容的真实性、准确性、合法性、安全性，以及因访问、使用或依赖其内容而可能导致的任何直接或间接损失，本站概不承担责任。
+3. **技术免责**：对于因网络故障、黑客攻击、计算机病毒侵入或政府管制等不可抗力事件导致链接失效或指向错误，本站不承担相关责任。
+4. **链接状态变更**：互联网上的资源状态动态变化。本站将尽力维护链接的有效性，但不保证所有链接永久可用。如果您发现任何链接失效、内容不当或存在安全风险，欢迎通过页面底部的联系方式告知我们，我们将及时核查处理。
+5. **用户责任**：当您通过本站链接访问其他网站时，意味着您已经理解并同意，您的访问和使用行为应自行承担风险，并遵守该第三方网站的服务条款和隐私政策。
+6. **如有争议**：任何与本声明相关的争议，建议首先通过友好协商解决。
+
+**总结而言，您使用本站链接即表明，您理解并接受从本站跳转至第三方网站所产生的全部风险由您自己承担。本站内容也未必安全，请注意防范。**
+
+--- end ---
+
+（ps：网上冲浪有风险，咱也是没有办法o(TヘTo)……咱也会没事儿看看没事用用的，虽然这个只是做免费知识记录分享的，一般不会被针对，但是大家也多注意安全。）
 :::

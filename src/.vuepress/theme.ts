@@ -213,6 +213,30 @@ export default hopeTheme({
       components: ["Badge", "VPCard","SiteInfo","VPBanner"],
     },
 
+    // watermark:{
+    //   watermarkOptions: {
+    //     content: 'SeanVoyager 的个人小站',
+    //   },
+    // },
+
+    notice:{
+      config:[
+        {
+          path: "/",
+          title: "📢 公告！！",
+          content: "欢迎来到SeanVoyager的博客！网站目前正在构建中，部分功能可能暂时无法访问或处于测试阶段，感谢您对本站点的关注与支持！",
+          showOnce: true,
+          // confirm: true,
+          // actions:[
+          //   {
+          //     text: "关闭",
+          //     link: "/",
+          //     type: "default"
+          //   }
+          // ],
+        }
+      ]
+    },
     // search: true,
     // slimsearch:true,
     slimsearch: {

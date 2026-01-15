@@ -33,7 +33,7 @@ projects:
   - icon: /assets/icon/home/friends.svg
     name: 友情链接
     desc: 好友位招租，友谊地久天长
-    link: https://你的伙伴链接
+    link: /friend
 
   - icon: /head2.png
     name: 关于我
