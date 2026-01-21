@@ -171,6 +171,14 @@ link: https://sci-hub.ru/
 background: rgba(100, 100, 100, 0.19)
 ```
 
+```component VPCard
+title: Paper to galgame
+desc: 论文看不下去了？用这个网站，让他把你要速度看完的论文变成galgame!
+logo: /toolLink/p2g.png
+link: https://www.paper2gal.top/
+background: rgba(255, 61, 171, 0.19)
+```
+
 ## 🎮 游戏攻略区
 ```component VPCard
 title: Mooncell
